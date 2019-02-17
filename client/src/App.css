@@ -1,0 +1,81 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  font-size: 120%;
+}
+
+.loginForm .row {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.formLabel {
+  cursor: pointer;
+  padding-right: 0.8rem;
+  flex-grow: 1;
+}
+
+.formInput {
+  font-size: 16px;
+}
+
+[type="submit"] {
+  cursor: pointer;
+  padding: 0.5em 0;
+}
+
+.counterContainer {
+  font-size: 20px;
+  display: flex;
+}
+
+.counterContainer > p {
+  margin: 0 10px 0 0;
+}
+
+.modal {
+  position: fixed;
+  background: rgba(255, 255, 255, .95);
+  box-shadow: 0 0 13px 1px rgba(50, 50, 50, 0.2);
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 140%;
+  padding: 0 1em 1em;
+}
+
+.modal .buttons {
+  display: flex;
+}
+
+.modal .buttons button {
+  flex-grow: 1;
+  padding: 0.5em;
+}
+
+.modal .buttons button:first-child {
+  margin-right: 0.5em;
+}
+
+.modal .buttons button:last-child {
+  margin-left: 0.5em;
+}
