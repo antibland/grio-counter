@@ -1,14 +1,26 @@
 # Assignment
 
-How to run it (using `yarn` or `npm`):
+```
+$ git clone https://github.com/antibland/grio-counter.git
+```
+
+#### Start Server (Node Express)
+
+```
+$ cd server
+$ npm install
+$ npm start
+```
+
+#### Start Client (Create React App)
 
 ```
 $ cd client
-$ yarn install
-$ yarn start
-$ cd server
-$ yarn install
-$ yarn start
+$ npm install
+$ npm start
 ```
 
-Then navigate to `localhost:3000`.
+You should be automatically navigated to `localhost:3000` once `Create React App` starts.
+
+* `username`: dummy
+* `password`: user
